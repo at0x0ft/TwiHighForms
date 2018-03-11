@@ -4,8 +4,9 @@
              xmlns:local="clr-namespace:TwiHigh"
              x:Class="TwiHigh.MainPage">
 
-    <Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label x:Name="ScreenNameLabel" />
+        <Button Text="Login!" Clicked="LoginBtn_Clicked" />
+    </StackLayout>
 
 </ContentPage>

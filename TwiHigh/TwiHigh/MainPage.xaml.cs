@@ -13,5 +13,10 @@ namespace TwiHigh
         {
             InitializeComponent();
         }
+
+        public async void LoginBtn_Clicked(object sender, EventArgs e)
+        {
+            this.ScreenNameLabel.Text = await OAuth.ShowLoginUserNameAsync();
+        }
     }
 }

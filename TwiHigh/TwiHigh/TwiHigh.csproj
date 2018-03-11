@@ -5,7 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Settings\AppsSettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Settings\AppsSettings.json" />
+    <EmbeddedResource Include="Settings\AppsSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="CoreTweet" Version="0.8.2.404" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
 
@@ -19,8 +31,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Settings\AppsSettings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-    </None>
+    <Folder Include="obj\" />
   </ItemGroup>
 </Project>
