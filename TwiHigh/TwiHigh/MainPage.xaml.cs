@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using TwiHigh;
 
 namespace TwiHigh
 {
@@ -14,9 +15,10 @@ namespace TwiHigh
             InitializeComponent();
         }
 
-        private void FileIOBtn_Clicked(object sender, EventArgs args)
+        private async void FileIOBtn_Clicked(object sender, EventArgs args)
         {
-            this.label1.Text = "FileIO test!";
+            var data = await JsonIO.JsonReadAsync("TwiHigh.Settings.AppsSettings.json");
+            this.label1.Text = data.CallbackURL;
         }
     }
 }
