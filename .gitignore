@@ -262,4 +262,4 @@ __pycache__/
 
 
 # Twitter OAuth File
-AppsSettings.settings
+AppsSettings.json
