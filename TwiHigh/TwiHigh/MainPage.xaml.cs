@@ -13,5 +13,10 @@ namespace TwiHigh
         {
             InitializeComponent();
         }
+
+        private void FileIOBtn_Clicked(object sender, EventArgs args)
+        {
+            this.label1.Text = "FileIO test!";
+        }
     }
 }
