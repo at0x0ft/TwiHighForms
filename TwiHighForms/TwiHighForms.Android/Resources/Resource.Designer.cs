@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("TwiHigh.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("TwiHighForms.Droid.Resource", IsApplication=true)]
 
-namespace TwiHigh.Droid
+namespace TwiHighForms.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace TwiHigh.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::TwiHigh.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::TwiHighForms.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

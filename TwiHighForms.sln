@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwiHigh.Android", "TwiHigh\TwiHigh.Android\TwiHigh.Android.csproj", "{F567B6B3-7E05-4859-8080-0EA862260D00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwiHighForms.Android", "TwiHighForms\TwiHighForms.Android\TwiHighForms.Android.csproj", "{F567B6B3-7E05-4859-8080-0EA862260D00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwiHigh.iOS", "TwiHigh\TwiHigh.iOS\TwiHigh.iOS.csproj", "{CEE7A3EB-BAA1-43F5-87FE-DAD37779FB53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwiHighForms.iOS", "TwiHighForms\TwiHighForms.iOS\TwiHighForms.iOS.csproj", "{CEE7A3EB-BAA1-43F5-87FE-DAD37779FB53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwiHigh.UWP", "TwiHigh\TwiHigh.UWP\TwiHigh.UWP.csproj", "{A5E8500A-2D6B-4137-9894-CABB232595D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwiHighForms.UWP", "TwiHighForms\TwiHighForms.UWP\TwiHighForms.UWP.csproj", "{A5E8500A-2D6B-4137-9894-CABB232595D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwiHigh", "TwiHigh\TwiHigh\TwiHigh.csproj", "{313D3C15-107B-4AF2-99B3-298AFF3384A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwiHighForms", "TwiHighForms\TwiHighForms\TwiHighForms.csproj", "{313D3C15-107B-4AF2-99B3-298AFF3384A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

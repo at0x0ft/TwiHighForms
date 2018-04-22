@@ -7,9 +7,9 @@
     <ProjectGuid>{A5E8500A-2D6B-4137-9894-CABB232595D8}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TwiHigh.UWP</RootNamespace>
-    <AssemblyName>TwiHigh.UWP</AssemblyName>
-    <DefaultLanguage>en-US</DefaultLanguage>
+    <RootNamespace>TwiHighForms.UWP</RootNamespace>
+    <AssemblyName>TwiHighForms.UWP</AssemblyName>
+    <DefaultLanguage>ja-JP</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
@@ -149,12 +149,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1"/>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TwiHigh\TwiHigh.csproj">
-      <Project>{4F232F0A-9B18-4941-84EC-3C25844C798E}</Project>
-      <Name>TwiHigh</Name>
+    <ProjectReference Include="..\TwiHighForms\TwiHighForms.csproj">
+      <Project>{313D3C15-107B-4AF2-99B3-298AFF3384A6}</Project>
+      <Name>TwiHighForms</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

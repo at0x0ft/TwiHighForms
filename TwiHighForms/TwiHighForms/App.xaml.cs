@@ -5,7 +5,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace TwiHigh
+namespace TwiHighForms
 {
 	public partial class App : Application
 	{
@@ -13,7 +13,7 @@ namespace TwiHigh
 		{
 			InitializeComponent();
 
-			MainPage = new TwiHigh.MainPage();
+			MainPage = new TwiHighForms.MainPage();
 		}
 
 		protected override void OnStart ()

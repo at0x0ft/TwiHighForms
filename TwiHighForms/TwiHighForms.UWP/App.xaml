@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="TwiHigh.UWP.App"
+    x:Class="TwiHighForms.UWP.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:TwiHigh.UWP"
+    xmlns:local="using:TwiHighForms.UWP"
     RequestedTheme="Light">
 
 </Application>

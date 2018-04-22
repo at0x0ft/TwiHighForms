@@ -123,9 +123,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\TwiHigh\TwiHigh.csproj">
-      <Project>{4F232F0A-9B18-4941-84EC-3C25844C798E}</Project>
-      <Name>TwiHigh</Name>
+    <ProjectReference Include="..\TwiHighForms\TwiHighForms.csproj">
+      <Project>{313D3C15-107B-4AF2-99B3-298AFF3384A6}</Project>
+      <Name>TwiHighForms</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

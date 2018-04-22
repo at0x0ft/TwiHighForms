@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -6,8 +6,8 @@
     <ProjectGuid>{F567B6B3-7E05-4859-8080-0EA862260D00}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>TwiHigh.Droid</RootNamespace>
-    <AssemblyName>TwiHigh.Android</AssemblyName>
+    <RootNamespace>TwiHighForms.Droid</RootNamespace>
+    <AssemblyName>TwiHighForms.Android</AssemblyName>
     <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -79,14 +79,11 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\TwiHigh\TwiHigh.csproj">
-      <Project>{4F232F0A-9B18-4941-84EC-3C25844C798E}</Project>
-      <Name>TwiHigh</Name>
+    <ProjectReference Include="..\TwiHighForms\TwiHighForms.csproj">
+      <Project>{313D3C15-107B-4AF2-99B3-298AFF3384A6}</Project>
+      <Name>TwiHighForms</Name>
     </ProjectReference>
   </ItemGroup>
-
-
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
